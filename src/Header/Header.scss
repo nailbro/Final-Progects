@@ -1,0 +1,81 @@
+@import '../Global/clobal.scss';
+
+.header{
+    width: 1920px;
+
+    &__top{
+        height: 44px;
+    background: #1E212C;
+    display: flex;
+
+    }
+    &__lis{
+        display: flex;
+        ul{margin-left: 195px;
+            display: flex;
+            column-gap: 24px;
+            li{
+                font-family: Lato;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                letter-spacing: 0%;
+                vertical-align: middle;
+                color: white;
+            }
+        }
+    }
+}
+.asa{
+    align-items: center;
+    display: flex;
+}
+.ava{
+    color: white;
+    font-family: Lato;
+font-weight: 900;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+vertical-align: middle;
+}
+
+.header-bar {
+ margin-left: 195px;  
+   color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px 16px;
+    font-size: 14px;
+    gap: 20px;
+    .lang-select,
+    .login {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      .icon {
+          opacity: 0.5;
+        &:first-child {
+          margin-right: 6px;
+          margin-left: 0;
+        }
+      }
+    }
+  };
+
+.createx{
+    margin-top: 31px;
+   &__btn{
+    display: flex;
+   }
+   ul{
+    margin-left: 60px;
+    display: flex;
+    column-gap: 40px;
+   }
+   input{
+    margin-left: 132px;
+    width: 380px;
+   }
+}
