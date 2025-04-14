@@ -49,10 +49,8 @@ vertical-align: middle;
     padding: 6px 16px;
     font-size: 14px;
     gap: 20px;
-    .lang-select,
-    .login {
-      display: flex;
-      align-items: center;
+   
+    
       cursor: pointer;
       .icon {
           opacity: 0.5;
@@ -60,22 +58,79 @@ vertical-align: middle;
           margin-right: 6px;
           margin-left: 0;
         }
-      }
     }
   };
+  .login{
+margin-left: 50px;
+    display: flex;
+    align-items: center;
+  }
 
 .createx{
+  display: flex;
     margin-top: 31px;
    &__btn{
     display: flex;
    }
    ul{
-    margin-left: 60px;
+margin-top: 10px;
+padding-left: 60px;
     display: flex;
     column-gap: 40px;
    }
-   input{
-    margin-left: 132px;
-    width: 380px;
-   }
+}
+.search{
+  margin-left: 132px;
+}
+.form{
+  width: 380px;
+  height: 44px; 
+  border: 1px solid  black;
+  display: inline-flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  overflow: hidden;
+}
+.form input{
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.search-form_btn{
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.search-form_image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toobar{
+  padding-left: 48px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.divider{
+  height: 22px;
+  border: 1px solid gray;
+}
+.cart{
+  column-gap: 8px;
+  display: flex;
+  h3{
+    background: #03CEA4;
+    color: white;
+    width: 23;
+height: 20;
+gap: 10px;
+border-radius: 4px;
+padding-top: 1px;
+padding-right: 8px;
+padding-bottom: 1px;
+padding-left: 8px;
+  }
 }

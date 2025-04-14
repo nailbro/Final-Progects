@@ -1,31 +1,11 @@
 import './Header.scss'
 import { FaUser, FaCaretDown, FaSearch } from 'react-icons/fa';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import flag from './flag-usa.svg'
 import logo from './logo.png'
-import { useSelector } from 'react-redux';
+import search from './search.svg'
+import heart from './outline.svg'
+import cart from './Cart.svg'
 const Header = () => {
-  const data = useSelector(state=>state.products.products)
-
-  const [isLogged, setIsLogged] = useState(false)
-  const [search,setSearch] = useState('')
-  const [arrSearch,setArrSearch] = useState([])
-  const [show,setShow] = useState(false)
-
-
-  const handleSearch = (e)=>{
-    if(e.target.value ===''){
-        setShow(false)
-    }else{
-        setShow(true)
-    }
-    
-    console.log(e.target.value)
-   setArrSearch(data.filter((item)=>{
-    return item.title.toUpperCase().includes(e.target.value.toUpperCase())
-   }))
-  
-}
 
   return (
     <header className='header'>
@@ -47,6 +27,7 @@ const Header = () => {
         <span>Eng / $</span>
         <FaCaretDown className="icon" />
       </div>
+
       <div className="login">
         <FaUser className="icon" />
         <span>Log in / Register</span>
@@ -65,12 +46,21 @@ const Header = () => {
           <li>Boys</li>
           <li>Sale</li>
         </ul>
-        <form action="">
-                    <label className="header__menu__input__container">
-                        <FontAwesomeIcon className='header__menu__input__container__search__icon' icon={FaSearch} />
-                        <input onChange={(e)=>{handleSearch(e)}}  type="text" placeholder='Search for products...' />
-                    </label>
-                </form>
+        <div className="search">
+<form className='form' action="">  
+    <input type="text" placeholder='Search for products...'  />
+    <button class="search-form_btn"><img className='search-form_image' src={search} alt="search"/></button>
+   </form>
+          </div>
+  <div className="toobar">
+    <img src={heart} alt="heart" />
+    <h3>2</h3>
+    <div className="divider"></div>
+    <div className="cart">
+      <img src={cart} alt="cart" />
+      <h3>4</h3>
+    </div>
+  </div>
           </div>
         </div>
     </header>
