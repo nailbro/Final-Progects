@@ -1,0 +1,59 @@
+{"users": [
+  {
+"id":1,
+"name":"NAil",
+"email":"nailbro@gmail.com"
+}
+
+],
+  "products": [
+    {
+      "id": 1,
+      "title": "Black and white sport cap",
+      "price": 18.15,
+      "image": ["/assets/Image/cap.png"],
+      "isNew": true,
+      "rate": 4.2
+    },
+    {
+      "id": 2,
+      "title": "Metal bridge sunglasses",
+      "price": 89.95,
+      "image": ["/assets/Image/smll.png"],
+      "isNew": true,
+      "rate": 4.8
+    },
+    {
+      "id": 3,
+      "title": "Green baby romper",
+      "price": 20.40,
+      "image": ["/assets/Image/fotbol.png"],
+      "isNew": true,
+      "rate": 4.5
+    },
+    {
+      "id": 4,
+      "title": "Mid-rise slim cropped fit jeans",
+      "price": 40.00,
+      "image": ["/assets/Image/sholl.png"],
+      "isNew": true,
+      "rate": 4.0
+    },
+    {
+      "id": 5,
+      "title": "Red dangle earrings",
+      "price": 29.95,
+      "image": ["/assets/Image/boll.png"],
+      "isNew": true,
+      "rate": 4.7
+    },
+    {
+      "id": 6,
+      "title": "Baby shoes with laces",
+      "price": 30.60,
+      "image": ["/assets/Image/bots.png"],
+      "isNew": true,
+      "rate": 4.3
+    }
+  ]
+}

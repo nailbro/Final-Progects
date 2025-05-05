@@ -1,0 +1,60 @@
+.instagram{
+    margin-top: 180px;
+    padding-left: 345px;
+    list-style: none;
+}
+.instagram__top{
+    position: relative;
+    h1{
+        margin-top: 8px;
+        font-family: Lato;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0%;
+    }
+    button{
+        display: flex;
+        margin-top: 60px;
+        width: 242px;
+height: 52px;
+border-radius: 4px;
+border-width: 1px;
+border: 1px solid #17696A;
+gap: 10px;
+}
+p{
+    list-style: none;
+    color: #17696A;
+    font-family: Lato;
+font-weight: 700;
+font-size: 16px;
+line-height: 52px;
+letter-spacing: 0.5px;
+text-align: center;
+vertical-align: middle;
+}
+}
+.inst{
+    margin-top: 14px;
+    margin-left: 40px;
+    color: #17696A;
+    width: 24px;
+height: 24px;
+}
+.foll{
+    font-family: Lato;
+font-weight: 700;
+font-size: 16px;
+line-height: 52px;
+letter-spacing: 0.5px;
+text-align: center;
+vertical-align: middle;
+}
+.instagram_img{
+    margin-top: -200px;
+    position: relative;
+    margin-left: 390px;
+    display: flex;
+    column-gap: 15px;
+}

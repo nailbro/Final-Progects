@@ -1,0 +1,75 @@
+.new_arivals{
+    margin-top: 180px;
+    width: 1860px;
+    padding-left: 30px;
+    margin-right: 30px;
+    &_container{
+        h1{
+            display: flex;
+            justify-content: center;
+            font-family: Lato;
+    font-weight: 900px;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0%;
+        }
+    }
+    &_check{
+        margin-top: 24px;
+        display: block;
+        justify-items: center;
+    }
+};
+.div{
+    margin-top: 60px;
+    column-gap: 30px;
+   display: flex;
+   p{
+    margin-top: 16px;
+    padding-left: 16px;
+   }
+   h2{
+    margin-top: 16px;
+    padding-left: 16px;
+   }
+}
+.kep{
+    background: url('../../../../public/assets/image/cap.png')center no-repeat;
+    width: 285px;
+    height: 320px;
+}
+.glass{
+    background: url('../../../../public/assets/image/smll.png')center no-repeat;
+    width: 285px;
+    height: 320px;
+}
+.fotbol{
+    background: url('../../../../public/assets/image/fotbol.png')center no-repeat;
+    width: 285px;
+    height: 320px;
+}
+.sholl{
+    background: url('../../../../public/assets/image/sholl.png')center no-repeat;
+    width: 285px;
+    height: 320px;
+}
+.boll{
+    background: url('../../../../public/assets/image/boll.png')center no-repeat;
+    width: 285px;
+    height: 320px;
+}
+.bots{
+    background: url('../../../../public/assets/image/bots.png')center no-repeat;
+    width: 285px;
+    height: 320px;
+}
+.dots{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+    button{
+        border: none;
+        background-color: transparent;
+    }
+}

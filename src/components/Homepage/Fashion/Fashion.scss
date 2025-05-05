@@ -1,0 +1,101 @@
+.blog{
+    margin-top: 180px;
+    margin-left: 345px;
+}
+.blogs{
+    width: 1230px;
+display: flex;
+justify-content: space-between;
+border: 4px;
+
+h1{
+    font-family: Lato;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0%;
+}
+    button{
+        margin-top: 16px;
+    width: 130px;
+height: 44px;
+border-radius: 4px;
+border-width: 1px;
+padding-right: 32px;
+padding-left: 32px;
+gap: 10px;
+border: 1px solid #17696A;
+color: #17696A;
+    }
+}
+.blogi{
+    margin-top: 60px;
+    display: flex;
+    column-gap: 30px;
+}
+.blogimg{
+    background: url('../../../assets/Image/blog1.png')no-repeat;
+    width: 600px;
+height: 306px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+.blogimg2{
+    background: url('../../../assets/Image/blog2.png')no-repeat;
+    width: 600px;
+    height: 306px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;    
+}
+.blogcs{
+    width:600px;
+    height: 176px;
+    background: white;
+}
+.blocs{
+    margin: 24px;
+    h3{
+        font-family: Lato;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+    }
+    p{
+        margin-top: 16px;
+        font-family: Lato;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+color: #424551;
+    }
+}
+.meta{
+    ul{
+        display: flex;
+        column-gap: 12px;
+    }
+    li{
+        font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #787A80;
+    }
+}
+.diviler{
+    margin-top: 4px;
+height: 11px;
+    rotate: -90 deg;    
+border: 1px solid #787A80
+}
+.nbn{
+    display: flex;
+    column-gap: 5px;
+}
+.nbnf{
+    margin-top: 3px;
+}

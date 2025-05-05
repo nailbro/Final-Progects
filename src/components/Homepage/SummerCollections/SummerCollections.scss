@@ -1,0 +1,231 @@
+.banners{
+    margin-top: 180px;
+    margin-left: 30px;
+    width: 1860px;
+    height: 1016px;
+}
+.banner{
+    display: flex;
+    column-gap: 16px;
+}
+.womenbanner{
+    background: url('../../../assets/Image/women.png')no-repeat;
+    width: 735px;
+    height: 500px;
+}
+.Side_up{
+    padding-top: 60px;
+    margin-left: 60px;
+    h3{
+        font-family: Lato;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 1px;
+vertical-align: middle;
+text-transform: uppercase;
+    }
+    h2{
+        margin-top: 12px;
+        font-family: Lato;
+font-weight: 900;
+font-size: 32px;
+line-height: 130%;
+letter-spacing: 0%;
+vertical-align: middle;
+    }
+    button {
+        margin-top: 40px;
+        width: 191px;
+height: 44px;
+gap: 10px;
+border-radius: 4px;
+padding-right: 32px;
+padding-left: 32px;
+color: #17696A;
+background-color: transparent;
+border: 1px solid #17696A
+    }
+}
+.the_week{
+    background: url('../../../assets/Image/banner\ 2.png') no-repeat;
+    width: 1109px;
+    height: 500px;
+}
+.Deal_of{
+    margin-top: 60px;
+    padding-left: 60px;
+    h2{
+   margin-top: 12px;
+   font-family: Lato;
+font-weight: 900;
+font-size: 32px;
+line-height: 130%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+    button{
+        margin-top: 40px;
+        width: 129px;
+height: 44px;
+border: 1px solid #17696A;
+gap: 10px;
+border-radius: 4px;
+padding-right: 32px;
+padding-left: 32px;
+color: #17696A;
+background-color: transparent;
+    }
+    p{
+        margin-top: 79px;
+        font-family: Lato;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 1px;
+vertical-align: middle;
+text-transform: uppercase;
+    }
+}
+.countdown{
+    margin-top: 12px;
+    display: flex;
+    column-gap: 24px;
+}
+.inner{
+    h3{
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        vertical-align: middle;        
+    }
+    small{
+        margin-top: 4px;
+        font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+vertical-align: middle;
+    }
+}
+.new_colect{
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+.new_collection{
+    background: url('../../../assets/Image/banner\ 3.png');
+    width: 1109px;
+    height: 500px;
+}
+.shoes{
+padding-top: 60px;
+ margin-left: 60px;
+ h3{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    text-transform: uppercase;    
+ }
+ h2{
+    margin-top: 12px;
+    font-family: Lato;
+font-weight: 900;
+font-size: 32px;
+line-height: 130%;
+letter-spacing: 0%;
+vertical-align: middle;
+ }
+ button{
+    margin-top: 40px;
+    width: 155px;
+height: 44px;
+position: relative;
+border: 1px solid #17696A;
+background-color: transparent;
+display: flex;
+align-items: center;
+border-radius: 4px;
+padding-right: 32px;
+padding-left: 32px;
+color: #17696A;
+ }
+ img{
+    padding-left: 8px;
+ }
+}
+
+.Getoff{
+    width: 735px;
+    height: 500px;
+    background-color: #E5E8ED;
+}
+.forall{
+    margin-top: 60px;
+    padding-left: 60px;
+    h3{
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 1px;
+        vertical-align: middle;
+        text-transform: uppercase;        
+    }
+    h2{
+        margin-top: 12px;
+        font-family: Lato;
+font-weight: 900;
+font-size: 32px;
+line-height: 130%;
+letter-spacing: 0%;
+vertical-align: middle;
+    }
+    p{
+        margin-top: 20px;
+        font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #424551;
+    }
+}
+.btn_addon{
+margin-top: 32px;
+form input{
+    margin-top: 8px;
+    width: 230px;
+    height: 44px;
+    background: white;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+form button{
+    width: 130px;
+    height: 44px;
+    gap: 10px;
+    padding-right: 32px;
+    padding-left: 32px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;    
+    background-color: #17696A;    
+    border: none;
+    color: white;
+}
+}
+.cruzchik{
+    background: url('../../../assets/Image/cruzchik.png')no-repeat;
+    width: 439px;
+height: 380px;
+margin-top: -180px;
+margin-left: 296px;
+}

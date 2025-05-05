@@ -48,7 +48,9 @@ const Header = () => {
         </ul>
         <div className="search">
 <form className='form' action="">  
+  <label htmlFor="">
     <input type="text" placeholder='Search for products...'  />
+    </label>
     <button class="search-form_btn"><img className='search-form_image' src={search} alt="search"/></button>
    </form>
           </div>

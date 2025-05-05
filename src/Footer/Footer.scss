@@ -1,0 +1,170 @@
+.footer{
+    width: 1920px;
+height: 358px;
+background: #1E212C;
+}
+.footer_top{
+    padding-top: 60px;
+}
+.footer_flex{
+    display: flex;
+}
+.help{
+    position: relative;
+    h3{
+        color: white;
+        font-family: Lato;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 1px;
+vertical-align: middle;
+text-transform: uppercase;
+    }
+    ul{
+margin-top: 12px;
+li{
+    margin-top: 4px;
+       font-family: Lato;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 160%;
+       letter-spacing: 0%;
+       color: #FFFFFF;
+       opacity: 60%;
+   }
+    }
+}
+.shop{
+    padding-left: 150px;
+    h3{
+        color: white;
+        font-family: Lato;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 1px;
+vertical-align: middle;
+text-transform: uppercase;
+    }
+    ul{
+margin-top: 12px;
+li{
+    margin-top: 4px;
+       font-family: Lato;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 160%;
+       letter-spacing: 0%;
+       color: #FFFFFF;
+       opacity: 0.6;
+   }
+    }
+}
+.contacts{
+    padding-left: 150px;
+h3{
+    font-family: Lato;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 1px;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
+}
+.call{
+    padding-top: 13px;
+    display: flex;
+    p{
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0%;
+        color: white;
+     }
+    span{
+        padding-left: 4px;
+        font-family: Lato;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+color: white;
+opacity: 0.6;
+    }
+}
+.email{
+    padding-top: 4px;
+    display: flex;
+    P{
+        font-family: Lato;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+color: white;
+    }
+    span{
+        padding-left: 4px;
+        font-family: Lato;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+opacity: 60%;
+color: white;
+    }
+}
+.socials{
+    padding-top: 24px;
+     color: white;
+display: flex;
+gap: 12px;
+}
+.shape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+height: 32px;
+border-radius: 4px;
+background: #424551;
+}
+.download_app{
+    padding-left: 152px;
+}
+.dividerw{
+    position: absolute;
+    margin-top: 40px;
+    height: 1px;
+border: 1px solid #FFFFFF;
+opacity: 0.15;
+    width: 1920px;
+border-width: 1px;
+}
+.copyright{
+margin-top: 25px;
+}
+.copyright_flex{
+    display: flex;
+    gap: 4px;
+    p{
+        font-family: Lato;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: white;
+    }
+    h3{
+     position: absolute;
+        margin-left: 1163px;
+    }
+}
+.Heard{
+    color: #17696A;
+}
