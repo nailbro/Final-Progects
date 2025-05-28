@@ -1,0 +1,416 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "nbro44@gmail.com",
+      "password": "$2a$10$MG9UeUp5RMaoWSvjyeNUx.L6WZ7mrU1hGJMZT/q4WyW2tjwk8CWUK",
+      "firstName": "Nail",
+      "lastName": "bro"
+    },
+    {
+      "id": 2,
+      "email": "lyalyaza@gmail.com",
+      "password": "$2a$10$OGi2ZEPmlspH.YxftApgyOeB1bT3/YrauCTKegxFQ5CzuXD8.Nlbe",
+      "firstName": "Nail",
+      "lastName": "lyalyaza"
+    },
+    {
+      "id": 3,
+      "email": "nailbro@gmail.com",
+      "password": "$2a$10$fxzHYzRp0bLeJwHbRjBYm.K669HSFcBQXsNERfpTouAWWGIteZrNq",
+      "firstName": "Nail",
+      "lastName": "lyalyaza"
+    },
+    {
+      "id": 4,
+      "email": "nbro22arf@gmail.com",
+      "password": "$2a$10$GAONb89uji1mQn9iOGoR6e4r4GDqIhuLx/9A8C2AvnCohC3dmOq.W",
+      "firstName": "Nail",
+      "lastName": "nbr"
+    },
+    {
+      "id": 5,
+      "email": "nbro4466@gmail.com",
+      "password": "$2a$10$suf9DnzIiwqdDEfA6HTWeeOKAlxnNUuN2hUOXzGB9lp.poLhoH8i6",
+      "firstName": "Nail",
+      "lastName": "dad"
+    },
+    {
+      "id": 1748432707588,
+      "email": "nbrosaass@gmail.com",
+      "password": "$2a$10$8LMt0C35KsW.z1fQGYIn8eMKmfydHsep7eJdeRKGJLIvlgpQDJyF6",
+      "firstName": "Nail",
+      "lastName": "bro"
+    },
+    {
+      "id": 1748434226206,
+      "email": "nbro555@gmail.com",
+      "password": "$2a$10$rZ0GbILIefvaHWR7wtrPxOO2sf63yyWRR9eJOHjeLCcEnwY3HCRie",
+      "firstName": "Nail",
+      "lastName": "shamil"
+    }
+  ],
+  "trendingProducts": [
+    {
+      "id": 1,
+      "name": "Shirt with insertion lace trims",
+      "price": "49.95",
+      "image": "/images/cofta.png",
+      "alt": "Shirt with insertion lace trims",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "Chrono watch with blue leather belt",
+      "price": "120.60",
+      "image": "/images/timechas.png",
+      "alt": "Chrono watch with blue leather belt",
+      "rating": 3.5
+    },
+    {
+      "id": 3,
+      "name": "Check coat with colour contrast",
+      "price": "183.45",
+      "image": "/images/product1.png",
+      "alt": "Check coat with colour contrast",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 4,
+      "name": "Shirt with insertion lace trims",
+      "price": "49.95",
+      "image": "/images/cofta.png",
+      "alt": "Shirt with insertion lace trims"
+    },
+    {
+      "id": 5,
+      "name": "Chrono watch with blue leather belt",
+      "price": "120.60",
+      "image": "/images/timechas.png",
+      "alt": "Chrono watch with blue leather belt",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "name": "Check coat with colour contrast",
+      "price": "183.45",
+      "image": "/images/product1.png",
+      "alt": "Check coat with colour contrast"
+    }
+  ],
+  "saleProducts": [
+    {
+      "id": 1,
+      "image": "images/sumka.png",
+      "title": "Leather crossbody bag with gold hardware",
+      "price": 89.5,
+      "originalPrice": 179,
+      "discountPercentage": 50,
+      "rating": 3.5
+    },
+    {
+      "id": 2,
+      "image": "images/deft.png",
+      "title": "Skinny push-up jeans",
+      "price": 40,
+      "originalPrice": 60,
+      "discountPercentage": 33,
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "image": "images/cab.png",
+      "title": "Wide heel suede ankle boots",
+      "price": 119.16,
+      "originalPrice": 179,
+      "discountPercentage": 33,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "image": "images/deft.png",
+      "title": "Leather crossbody bag with gold hardware",
+      "price": 89.5,
+      "originalPrice": 179,
+      "discountPercentage": 50
+    },
+    {
+      "id": 5,
+      "image": "images/sumka.png",
+      "title": "Skinny push-up jeans",
+      "price": 40,
+      "originalPrice": 60,
+      "discountPercentage": 33,
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "image": "images/cab.png",
+      "title": "Wide heel suede ankle boots",
+      "price": 119.16,
+      "originalPrice": 179,
+      "discountPercentage": 33,
+      "rating": 4
+    }
+  ],
+  "newArrivals": [
+    {
+      "id": 1,
+      "name": "Black and white sport cap",
+      "price": "18.15",
+      "imageClass": "kep",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 2,
+      "name": "Metal bridge sunglasses",
+      "price": "89.95",
+      "imageClass": "glass",
+      "liked": false
+    },
+    {
+      "id": 3,
+      "name": "Green baby romper",
+      "price": "20.40",
+      "imageClass": "fotbol",
+      "rating": 4,
+      "liked": false
+    },
+    {
+      "id": 4,
+      "name": "Mid-rise slim cropped fit jeans",
+      "price": "40.00",
+      "imageClass": "sholl"
+    },
+    {
+      "id": 5,
+      "name": "Red dangle earrings",
+      "price": "29.95",
+      "imageClass": "boll",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 6,
+      "name": "Baby shoes with laces",
+      "price": "30.60",
+      "imageClass": "bots"
+    },
+    {
+      "id": 1,
+      "name": "Men Fashion gray shoes",
+      "price": "85.00",
+      "imageClass": "bots2",
+      "rating": 3.5,
+      "liked": false
+    },
+    {
+      "id": 2,
+      "name": "Metal bridge sunglasses",
+      "price": "18.15",
+      "imageClass": "kep",
+      "rating": 4,
+      "liked": false
+    },
+    {
+      "id": 3,
+      "name": "Green baby romper",
+      "price": "89.95",
+      "imageClass": "glass",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 4,
+      "name": "Mid-rise slim cropped fit jeans",
+      "price": "20.40",
+      "imageClass": "fotbol"
+    },
+    {
+      "id": 5,
+      "name": "Red dangle earrings",
+      "price": "40.00",
+      "imageClass": "sholl"
+    },
+    {
+      "id": 6,
+      "name": "Baby shoes with laces",
+      "price": "29.95",
+      "imageClass": "boll",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 1,
+      "name": "Leather crossbody bag with...",
+      "price": "89.50",
+      "imageClass": "sumka",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 2,
+      "name": "Metal bridge sunglasses",
+      "price": "18.15",
+      "imageClass": "kep"
+    },
+    {
+      "id": 3,
+      "name": "Mid-rise slim cropped fit jeans",
+      "price": "20.40",
+      "imageClass": "fotbol",
+      "rating": 4,
+      "liked": false
+    },
+    {
+      "id": 4,
+      "name": "Green baby romper",
+      "price": "89.95",
+      "imageClass": "glass"
+    },
+    {
+      "id": 5,
+      "name": "Baby shoes with laces",
+      "price": "29.95",
+      "imageClass": "boll",
+      "rating": 4,
+      "liked": false
+    },
+    {
+      "id": 6,
+      "name": "Basic hooded sweatshirt in pink",
+      "price": "15.50",
+      "imageClass": "tolstovka",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 1,
+      "name": "Shirt with insertion lace trims",
+      "price": "49.95",
+      "imageClass": "cofta"
+    },
+    {
+      "id": 2,
+      "name": "Leather crossbody bag with...",
+      "price": "89.50",
+      "imageClass": "sumka",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 3,
+      "name": "Green baby romper",
+      "price": "89.95",
+      "imageClass": "glass"
+    },
+    {
+      "id": 4,
+      "name": "Mid-rise slim cropped fit jeans",
+      "price": "20.40",
+      "imageClass": "fotbol",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 5,
+      "name": "Check coat with colour contrast",
+      "price": "183.45",
+      "imageClass": "plash",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 6,
+      "name": "Basic hooded sweatshirt in pink",
+      "price": "15.50",
+      "imageClass": "tolstovka"
+    },
+    {
+      "id": 1,
+      "name": "Red dangle earrings",
+      "price": "40.00",
+      "imageClass": "sholl",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 2,
+      "name": "Green baby romper",
+      "price": "89.95",
+      "imageClass": "glass"
+    },
+    {
+      "id": 3,
+      "name": "Metal bridge sunglasses",
+      "price": "18.15",
+      "imageClass": "kep",
+      "rating": 4,
+      "liked": false
+    },
+    {
+      "id": 4,
+      "name": "Baby shoes with laces",
+      "price": "29.95",
+      "imageClass": "boll"
+    },
+    {
+      "id": 5,
+      "name": "Men Fashion gray shoes",
+      "price": "85.00",
+      "imageClass": "bots2",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 6,
+      "name": "Mid-rise slim cropped fit jeans",
+      "price": "20.40",
+      "imageClass": "fotbol"
+    },
+    {
+      "id": 1,
+      "name": "Metal bridge sunglasses",
+      "price": "89.95",
+      "imageClass": "glass"
+    },
+    {
+      "id": 2,
+      "name": "Black and white sport cap",
+      "price": "18.15",
+      "imageClass": "kep",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 3,
+      "name": "Mid-rise slim cropped fit jeans",
+      "price": "40.00",
+      "imageClass": "sholl"
+    },
+    {
+      "id": 4,
+      "name": "Green baby romper",
+      "price": "20.40",
+      "imageClass": "fotbol",
+      "rating": 3.5,
+      "liked": false
+    },
+    {
+      "id": 5,
+      "name": "Baby shoes with laces",
+      "price": "30.60",
+      "imageClass": "bots",
+      "rating": 5,
+      "liked": false
+    },
+    {
+      "id": 6,
+      "name": "Red dangle earrings",
+      "price": "29.95",
+      "imageClass": "boll"
+    }
+  ]
+}

@@ -55,7 +55,7 @@ const SummerCollections = () => {
 <div className="btn_addon">
 <label htmlFor="emal">Email</label>
     <form action="action">
-        <input type="email" name="email" id="" placeholder='Your working email'/>
+        <input type="email" name="email" id="" placeholder='Your working email' required/>
     <button>Subscribe</button>
     </form>
 </div>

@@ -1,5 +1,4 @@
-{
-  "compilerOptions": {
+{  "compilerOptions": {
     "typeRoots": ["./node_modules/@types", "./types"],
     "target": "es5",
     "lib": [
@@ -22,6 +21,7 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "src/**/*", "declaration.d.ts"
   ]
 }

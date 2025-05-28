@@ -6,12 +6,6 @@ import PopularCategories from './PopularCategories/PopularCategories'
 import SummerCollections from './SummerCollections/SummerCollections'
 import Categories from '../categories/Categories'
 import SaleUp from './SaleUp/SaleUp'
-import Gtamobile from '../gta/Gtamobile'
-import Services from './services/Services'
-import Instagram from './instagram/Instagram'
-import Fashion from './Fashion/Fashion'
-import Brands from '../brands/Brands'
-import Subscribe from '../Subscribe/Subscribe'
 
 const Homepage = () => {
   return (
@@ -24,12 +18,6 @@ const Homepage = () => {
       <PopularCategories/>
       <Trendingnow/>
       <SaleUp/>
-      <Gtamobile/>
-      <Services/>
-      <Instagram/>
-      <Fashion/>
-      <Brands/>
-      <Subscribe/>
     </>
   )
 }

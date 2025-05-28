@@ -1,12 +1,14 @@
 .services{
     margin-top: 120px;
-    padding-left: 235px;
+    max-width: 1920px;
 }
 .servis{
     display: flex;
-    column-gap: 90px;
+    column-gap: 45px;
 }
 .servises{
+    width: 240px;
+height: 136px;
     img{
 padding-left: 96px;
     }
@@ -30,4 +32,9 @@ line-height: 160%;
 letter-spacing: 0%;
 text-align: center;
 }
+}
+.diviler-gra{
+    height: 136.0000000000001px;
+    width: 1px;
+border: solid #DADBDD80;
 }

@@ -1,0 +1,286 @@
+.toolls{
+    padding-left: 345px;
+    padding-top: 32px;
+}
+.toolbar{
+    display: flex;
+
+}
+.toolbarbtn{
+        width: 255px;
+height: 44px;
+border-radius: 4px;
+padding-right: 32px;
+padding-left: 32px;
+gap: 10px;
+background: #17696A;
+border: none;
+color: white;
+font-family: Lato;
+font-weight: 700;
+font-size: 14px;
+line-height: 44px;
+letter-spacing: 0.5px;
+}
+.filter{
+    position: absolute;
+     padding-top: 2px;
+    padding-left: 36px;
+}
+.sidebar1{
+    padding-top: 90px;
+     position: absolute;
+}
+.sidebar2{
+    form{
+padding-top: 16px;
+input{
+    padding: 0 12px;
+    width: 255px;
+height: 36px;
+border-radius: 4px;
+border-width: 1px;
+border: 1px solid #D7DADD;
+outline: none;
+}
+i{
+    display: inline-block;
+margin-left: -19px;
+width: 14.333333969116211px;
+height: 14.333333969116211px;
+color: #9A9CA5;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+    }
+}
+.filterclocher{
+    display: flex;
+        h4{
+            width: 223px;
+height: 26px;
+        font-family: Lato;
+font-weight: 700;
+font-size: 16px;
+vertical-align: middle;
+color: #1E212C;
+    }
+button{
+    margin-top: 5px;
+    margin-left: 16px;
+width: 14.666666030883789px;
+height: 2.3333334922790527px;
+background: #17696A;
+border: none;
+}
+}
+.categories4{
+    padding-top: 16px;
+}
+.checkbox-item{
+    display: flex;
+    input{
+border-radius: 3px;
+border-width: 1px;
+        width: 16px;
+height: 16px;
+    }
+    p{
+        padding-left: 12px;
+        font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+color: #424551;
+    }
+    span{
+        padding-left: 4px;
+        font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+color: #9A9CA5;
+    }
+}
+
+.checkbox-item2{
+    padding-top: 8px;
+    display: flex;
+    input{
+border-radius: 3px;
+border-width: 1px;
+        width: 16px;
+height: 16px;
+    }
+    p{
+        padding-left: 12px;
+        font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+color: #424551;
+    }
+    span{
+        padding-left: 4px;
+        font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+color: #9A9CA5;
+    }
+}
+.diviler5{
+    margin-top: 20px;
+    width: 255px;
+border-width: 1px;
+border: 1px solid #E5E8ED;
+}
+.filter-categories{
+    padding-top: 20px;
+    display: flex;
+    h4{
+        width: 223px;
+height: 26px;
+font-family: Lato;
+font-weight: 700;
+font-size: 16px;
+vertical-align: middle;
+color: #1E212C;
+    }
+button{
+    padding-left: 16px;
+        background: transparent;
+ border: none;
+}
+}
+.sorting{
+    margin-left: 60px;
+    width: 233px;
+height: 44px;
+gap: 12px;
+    display: flex;
+    p{
+   padding: 8px 0 8px;
+   color: #424551;
+   font-family: Lato;
+font-weight: 700;
+font-size: 16px;
+
+    }
+    input{
+            position: relative;
+    width: 170px;
+height: 44px;
+border-radius: 4px;
+border-width: 1px;
+border: 1px solid #D7DADD;
+background: white;
+    }
+    input{
+padding-right: 80px;
+      font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+color: #424551;  
+    }
+    img{
+        padding-top: 14px;
+        padding-left: 200px;
+        position: absolute;
+    }
+}
+.pakeger{
+    margin-left: 60px;
+    display: flex;
+height: 44px;
+h4{
+    padding-top: 14px;
+}
+input{
+ margin-left: 12px;
+    padding-right: 35px;
+    width: 80px;
+height: 44px;
+border-radius: 4px;
+border-width: 1px;
+border: 1px solid #D7DADD;
+background: white;
+font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+color: #424551;
+}
+img{
+    width: 16px;
+height: 16px;
+position: absolute;
+margin-top: 16px;
+margin-left: 95px;
+}
+p{
+    padding-left: 12px;
+    padding-top: 14px;
+    font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+color: #787A80;
+}
+}
+.pagination4{
+    position: relative;
+    margin-left: 183px;
+   ul{
+    padding-left: 30px;
+    column-gap: 20px;
+    padding-top: 9px;
+    display: flex;
+    li{
+        font-family: Lato;
+font-weight: 700;
+font-size: 16px;
+color: #17696A;
+    }
+   }
+}
+.clother-trend{
+    margin-top: 32px;
+    margin-left: 315px;
+    width: 915px;
+}
+.prodactshen{
+    display: flex;
+    column-gap: 30px;
+}
+.prodactshen2{
+    padding-top: 60px;
+    display: flex;
+    column-gap: 30px;
+}
+.clother-product{
+p{
+   padding-left: 16px;
+   padding-top: 16px;
+    font-family: Lato;
+font-weight: 400;
+font-size: 18px;
+color: #424551;
+}
+h4{
+    padding-left: 16px;
+    font-family: Lato;
+font-weight: 700;
+font-size: 24px;
+vertical-align: middle;
+color: #1E212C;
+}
+}
+.clother_set{
+        img{
+        width: 285px;
+height: 320px;
+border-radius: 4px;
+    }
+}
+.toolbar2{
+    margin-top: 80px;
+    margin-left: 255px;
+    display: flex;
+}

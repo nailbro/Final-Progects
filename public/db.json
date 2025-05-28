@@ -1,0 +1,46 @@
+{
+  "trendingProducts": [
+    {
+      "id": 1,
+      "image": "/images/cofta.png",
+      "alt": "Shirt with insertion lace trims",
+      "description": "Shirt with insertion lace trims",
+      "price": "49.95"
+    },
+    {
+      "id": 2,
+      "image": "/images/timechas.png",
+      "alt": "Chrono watch with blue leather belt",
+      "description": "Chrono watch with blue leather belt",
+      "price": "120.60"
+    },
+    {
+      "id": 3,
+      "image": "/images/product1.png",
+      "alt": "Check coat with colour contrast",
+      "description": "Check coat with colour contrast",
+      "price": "183.45"
+    },
+    {
+      "id": 1,
+      "image": "/images/cofta.png",
+      "alt": "Shirt with insertion lace trims",
+      "description": "Shirt with insertion lace trims",
+      "price": "49.95"
+    },
+    {
+      "id": 2,
+      "image": "/images/timechas.png",
+      "alt": "Chrono watch with blue leather belt",
+      "description": "Chrono watch with blue leather belt",
+      "price": "120.60"
+    },
+    {
+      "id": 3,
+      "image": "/images/product1.png",
+      "alt": "Check coat with colour contrast",
+      "description": "Check coat with colour contrast",
+      "price": "183.45"
+    }
+  ]
+}

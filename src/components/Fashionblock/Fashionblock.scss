@@ -1,0 +1,339 @@
+$primary-text-color: #1E212C;
+$secondary-text-color: #424551;
+$tertiary-text-color: #787A80;
+$border-color-light: #E5E8ED;
+$border-color-medium: #D7DADD;
+$white-color: white;
+
+.Fashion_block {
+  margin-top: 32px;
+  width: 810px;
+  height: 2330px;
+}
+
+.articels {
+  padding-left: 345px;
+}
+
+.articelbox {
+  display: flex;
+
+  h1 {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 46px;
+    color: $primary-text-color;
+  }
+}
+
+.boxartil {
+  position: absolute;
+  padding-left: 890px;
+
+  form {
+    input {
+      padding: 0 16px;
+      width: 342px;
+      height: 44px;
+      border-radius: 4px;
+      border: 1px solid $border-color-medium; 
+      background: $white-color;
+      outline: none; 
+    }
+
+    i {
+      padding-top: 14px;
+      margin-left: -30px;
+    }
+
+    button {
+      border: none;
+      background: transparent; 
+    }
+  }
+}
+
+.divider3 {
+  margin-top: 32px;
+  width: 342px;
+  border: 1px solid $border-color-light; 
+}
+
+.categoriesul {
+  display: flex;
+}
+
+.categoris {
+  padding-top: 32px;
+
+  h4 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 24px;
+    color: $primary-text-color;
+  }
+}
+
+.categoriesli {
+  display: flex;
+  flex-direction: column;
+  width: 105px;
+  margin-top: 16px;
+
+  ul {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    vertical-align: middle;
+
+    li {
+      padding-top: 8px;
+      color: $secondary-text-color;
+    }
+  }
+}
+
+.divider4 {
+  margin-top: 310px;
+  width: 342px;
+  border: 1px solid $border-color-light;
+}
+
+.quanity {
+  margin-top: 16px;
+  padding-left: 218px;
+
+  ul {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    vertical-align: middle;
+
+    li {
+      padding-top: 8px;
+      color: $secondary-text-color;
+    }
+  }
+}
+
+.featuared-posts {
+  padding-top: 32px;
+}
+
+.posts {
+  padding-top: 24px;
+  width: 342px;
+  height: 100px;
+}
+
+.post {
+  display: flex;
+}
+
+.title {
+  padding-left: 20px;
+
+  p {
+    padding-top: 4px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    color: $primary-text-color;
+  }
+}
+
+.data {
+  display: flex;
+  gap: 8px;
+
+  span {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+    vertical-align: middle;
+    color: $tertiary-text-color;
+  }
+}
+
+.post2 {
+  padding-top: 24px;
+  display: flex;
+}
+
+.Tags {
+  padding-top: 32px;
+  width: 400px;
+  height: 147px;
+}
+
+.tags {
+  padding-top: 24px;
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 12px; 
+}
+
+.tag {
+  height: 32px;
+  border-radius: 4px;
+  padding: 5.5px 16px; 
+  border: 1px solid $border-color-medium;
+  background: transparent;
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; 
+
+ 
+  &.active-tag {
+    background-color: #17696A;
+    color: $white-color;
+    border-color: #17696A;
+  }
+
+  
+  &:nth-child(1) { 
+    width: 81px;
+       height: 32px;
+  }
+  &:nth-child(2) { 
+    width: 108px;
+       height: 32px;
+  }
+  &:nth-child(3) { 
+    width: 101px;
+       height: 32px;
+  }
+  &:nth-child(4) {
+    width: 112px;
+    height: 32px;
+  }
+  &:nth-child(5) { 
+    width: 109px;
+       height: 32px;
+  }
+  &:nth-child(6) { 
+    width: 86px;
+    height: 32px;
+  }
+}
+
+.sidebar {
+  position: absolute;
+}
+
+.fashionblog {
+  padding-top: 32px;
+
+  h3 {
+    padding-top: 8px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: $primary-text-color;
+  }
+
+  p {
+    width: 810px;
+    padding-top: 8px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: $secondary-text-color;
+  }
+}
+
+.blogimage {
+  background: url('../../assets/Image/blog-7.png') no-repeat;
+  width: 810px;
+  height: 360px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.metablog {
+  margin-top: 16px;
+
+  ul {
+    display: flex;
+    column-gap: 12px;
+  }
+
+  li {
+    font-family: Lato;
+    font-weight: 400;
+    vertical-align: middle;
+    color: $tertiary-text-color;
+  }
+}
+
+.fashionblog2 {
+  padding-top: 60px;
+
+  h3 {
+    padding-top: 8px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: $primary-text-color;
+  }
+
+  p {
+    width: 810px;
+    padding-top: 8px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: $secondary-text-color;
+  }
+}
+
+.blogimage2 {
+  background: url('../../assets/Image/blog-4.png') no-repeat;
+  width: 810px;
+  height: 360px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.blogimage3 {
+  background: url('../../assets/Image/blog-6.png') no-repeat;
+  width: 810px;
+  height: 360px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.blogimage4 {
+  background: url('../../assets/Image/blog-5.png') no-repeat;
+  width: 810px;
+  height: 360px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.pagination {
+  padding-top: 60px;
+  display: flex;
+  column-gap: 20px;
+
+  ul {
+    display: flex;
+    gap: 20px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    vertical-align: middle;
+
+    li {
+      color: $secondary-text-color;
+    }
+  }
+}

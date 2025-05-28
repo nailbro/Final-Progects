@@ -11,7 +11,7 @@ const Instagram = () => {
         <div className="instagram__top">
         <h4>Follow us on Instagram</h4>
         <h1>@createx_store</h1>
-         <button><FaInstagram className='inst'/><a href="https://www.instagram.com/prosto_naili?igsh=cXVvZHNoZWMyeGR6"><p>Follow instagram</p></a></button>
+        <a href="https://www.instagram.com/prosto_naili?igsh=cXVvZHNoZWMyeGR6"> <button><FaInstagram className='inst'/><p>Follow instagram</p></button></a>
         </div>
         <div className="instagram_img">
             <img src={niga} alt="niga" />

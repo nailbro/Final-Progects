@@ -1,109 +1,164 @@
-import React, { useEffect, useState } from 'react';
 import './NewArivals.scss';
 import dot from '../../../assets/Image/dot.png';
 import dot2 from '../../../assets/Image/dot (1).png';
+import { useEffect, useState } from 'react';
+import { FaStar, FaRegHeart, FaHeart, FaStarHalfAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+
 
 interface Product {
   id: number;
-  title: string;
-  price: number;
-  image: string[];
-  isNew: boolean;
-  rate: number;
+  name: string;
+  price: string;
+  imageClass: string;
+  rating?: number;
+  liked: boolean;
 }
 
 const NewArivals = () => {
   const [products, setProducts] = useState<Product[]>([]);
-  const [status, setStatus] = useState<'idle' | 'loading' | 'succeeded' | 'failed'>('idle');
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const productsPerSlide = 6;
 
   useEffect(() => {
-    const fetchProductsData = async () => {
-      setStatus('loading');
+    const fetchProducts = async () => {
+      setLoading(true);
+      setError(null);
       try {
-        // Загрузка данных из db.json, находящегося в корне проекта
-        const response = await fetch('./db.json');
+        const response = await fetch('http://localhost:5000/api/newArrivals');
+
         if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
+          throw new Error(`Ошибка HTTP! Статус: ${response.status}`);
         }
-        const data = await response.json();
 
-        // Убедимся, что данные находятся в массиве 'products'
-        if (data && data.products && Array.isArray(data.products)) {
-          setProducts(data.products);
+        const data: Product[] = await response.json();
+        setProducts(data);
+      } catch (err: any) {
+        console.error('Не удалось получить данные для New Arrivals:', err);
+        if (err.message.includes('Failed to fetch') || err.message.includes('NetworkError')) {
+          setError("Не удалось подключиться к серверу. Убедитесь, что сервер запущен (npm run server).");
         } else {
-          console.error(
-            'Error: структура данных не соответствует ожидаемой. Ожидается массив \'products\'.',
-            data
-          );
-          setStatus('failed');
-          return; // Важно выйти из функции, чтобы не вызвать ошибку при рендеринге
+          setError(err.message || 'Не удалось загрузить продукты "Новых поступлений".');
         }
-
-        setStatus('succeeded');
-      } catch (error: any) {
-        console.error('Ошибка при загрузке данных:', error);
-        setStatus('failed');
+      } finally {
+        setLoading(false);
       }
     };
 
-    fetchProductsData();
+    fetchProducts();
   }, []);
 
-  const renderContent = () => {
-    if (status === 'loading') {
-      return <p>Loading...</p>;
-    }
-    if (status === 'failed') {
-      return <p>Error loading products!</p>;
-    }
-    if (!products.length) {
-      // Добавлена проверка на случай, если массив products пуст
-      return <p>No products available.</p>;
-    }
-    return (
-      <div className="new_arrivals_items">
-        {products
-          .filter((item) => item.isNew)
-          .map((item) => (
-            <div className="new_arrivals_item" key={item.id}>
-              <Link to={`/detail/${item.id}`}>
-                <img className="new_arrivalsitem_img" src={item.image[0]} alt={item.title} />
-              </Link>
-              <div className="new_arrivalsitem_info">
-                <h3 className="new_arrivalsitem_title">{item.title}</h3>
-                <div className="new_arrivalsitem_rate">
-                  <span
-                    className="rate__star"
-                    style={{ width: `${(item.rate / 5) * 100}%` }}
-                  ></span>
-                  <span className="rate__text">{item.rate}/5</span>
-                </div>
-                <p className="new_arrivalsitem_price">${item.price}</p>
-              </div>
-            </div>
-          ))}
-      </div>
+  const handleDotClick = (index: number) => {
+    setCurrentSlide(index);
+  };
+
+const renderStars = (rating: number | undefined) => {
+  if (typeof rating !== 'number' || rating < 0 || rating > 5) {
+    return null;
+  }
+
+  const stars = [];
+  const fullStars = Math.floor(rating); 
+  const hasHalfStar = rating % 1 !== 0; 
+
+
+  for (let i = 0; i < fullStars; i++) {
+    stars.push(<FaStar key={`full-${i}`} color="#FFD700" size={18} />);
+  }
+
+
+  if (hasHalfStar) {
+    stars.push(<FaStarHalfAlt key="half" color="#FFD700" size={18} />);
+  }
+
+ 
+  const emptyStarsCount = 5 - fullStars - (hasHalfStar ? 1 : 0);
+  for (let i = 0; i < emptyStarsCount; i++) {
+    stars.push(<FaStar key={`empty-${i}`} color="#d3d3d3" size={18} />);
+  }
+
+  return <div className="product-rating">{stars}</div>;
+};
+
+  const toggleLike = (id: number) => {
+    setProducts(prevProducts =>
+      prevProducts.map(product =>
+        product.id === id ? { ...product, liked: !product.liked } : product
+      )
     );
   };
 
+  const totalDots = Math.ceil(products.length / productsPerSlide);
+  const startIndex = currentSlide * productsPerSlide;
+  const visibleProducts = products.slice(startIndex, startIndex + productsPerSlide);
+
+  if (loading) {
+    return (
+      <section className='new_arivals '>
+        <div className="new_arivals_container">
+          <div>Loading new arrivals...</div>
+        </div>
+      </section>
+    );
+  }
+
+  if (error) {
+    return (
+      <section className='new_arivals'>
+        <div className="new_arivals_container">
+          <div>Error: {error}</div>
+        </div>
+      </section>
+    );
+  }
+
   return (
-    <section className="new_arivals">
+    <section className='new_arivals' id="new-arrivals-section">
       <div className="new_arivals_container">
         <h1>New arrivals</h1>
         <div className="new_arivals_check">
           <p>Check out our latest arrivals for the upcoming season</p>
-          <Link to="/collection">See the collection here</Link>
+          <a href="">See the collection here</a>
         </div>
-        {renderContent()}
+        <div className="div">
+          {visibleProducts.map((product, index) => (
+            <div key={product.id} className="product-item">
+                    <Link to={'/clother/detail'}className='product-link'>
+              <div className="product-image-wrapper">
+                <div className={product.imageClass}>
+                  <div className="rating">
+    {renderStars(product.rating)}
+                  </div>
+                </div>
+              
+              </div>
+              <p>{product.name}</p>  
+            </Link>
+              <h5>${product.price}</h5>
+                       <div className="product-like-icon" onClick={() => toggleLike(product.id)}>
+                  {product.liked ? <FaHeart color="red" size={24} /> : <FaRegHeart size={24} />}
+                </div>
+            </div>
+            
+          ))}
+          {visibleProducts.length < productsPerSlide && Array.from({ length: productsPerSlide - visibleProducts.length }).map((_, i) => (
+              <div key={`placeholder-${i}`} className="product-item placeholder-item"></div>
+          ))}
+        </div>
       </div>
       <div className="dots">
-        <button><img src={dot} alt="" /></button>
-        <button><img src={dot2} alt="" /></button>
-        <button><img src={dot2} alt="" /></button>
-        <button><img src={dot2} alt="" /></button>
-        <button><img src={dot2} alt="" /></button>
-        <button><img src={dot2} alt="" /></button>
+        {Array.from({ length: totalDots }).map((_, index) => (
+          <button
+            key={index}
+            onClick={() => handleDotClick(index)}
+            disabled={index * productsPerSlide >= products.length}
+            className={index === currentSlide ? 'active-dot' : ''}
+          >
+            <img src={index === currentSlide ? dot : dot2} alt={`Slide ${index + 1}`} />
+          </button>
+        ))}
       </div>
     </section>
   );

@@ -8,7 +8,7 @@ import OrSale from '../../assets/Image/For-SaleLogo.png'
 import dermay from '../../assets/Image/Del-Mar-Strategy-Logo.png'
 const Brands = () => {
   return (
-    <div className='Brands'>
+    <div className='Brandsd' id='brands-scroll'>
       <div className="BrandLogo">
 <img src={inDepht} alt="indehpt" />
 <img src={Higher} alt="higher" />

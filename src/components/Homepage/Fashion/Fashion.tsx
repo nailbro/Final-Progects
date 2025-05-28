@@ -1,12 +1,14 @@
-import React from 'react'
 import './Fashion.scss'
 import { IoMdChatbubbles } from "react-icons/io";
+import { Link } from 'react-router-dom';
 const Fashion = () => {
   return (
     <section className='blog'>
       <div className="blogs">
 <h1>Fashion blog</h1>
+<Link to={'/fashionblock'} className="no-underline-link">
 <button>View blog</button>
+</Link>
       </div>
       <div className="blogi">
         <div className="blogcs">
@@ -19,7 +21,7 @@ const Fashion = () => {
     <div className="diviler"></div>
     <li>August 24, 2020</li>
     <div className="diviler"></div>
-    <li className='nbn'><IoMdChatbubbles className='nbnf' /> No comments</li>
+    <li className='nbn'><i><IoMdChatbubbles className='nbnf' /></i> No comments</li>
 </ul>
 </div>
 <p>Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas faucibus. Tincidunt <br />aliquet sit vel, venenatis nulla. Integer bibendum turpis convallis...</p>
@@ -37,7 +39,7 @@ const Fashion = () => {
     <div className="diviler"></div>
     <li>July 16, 2020</li>
     <div className="diviler"></div>
-    <li className='nbn'><IoMdChatbubbles className='nbnf' /> 4 comments</li>
+    <li className='nbn'><i><IoMdChatbubbles className='nbnf' /></i> 4 comments</li>
 </ul>
 </div>
 <p>Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat <br /> vitae scelerisque. Rhoncus augue faucibus maecenas lacus...</p>

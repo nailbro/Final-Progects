@@ -1,0 +1,157 @@
+.megamenu{
+    position: relative;
+    margin-top: 20px;
+    width: 1920px;
+height: 487px;
+border: 1px solid #E5E8ED;
+border-width: 1px;
+border-bottom-right-radius: 4px;
+column-gap: 30px;
+border-bottom-left-radius: 4px;
+}
+.megamenu2{
+    padding-top: 20px;
+margin-left: 345px;
+ display: flex;
+}
+.megamen{
+ width: 180px;
+height: 108px;
+ul{
+     cursor: pointer;
+    li{
+    font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+    }
+}
+}
+.bestsel{
+ul{
+     cursor: pointer;
+    font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+
+    li{
+          color:#424551;
+        padding-top: 8px;
+    }
+}
+}
+.clother{
+    width: 136px;
+height: 21px;
+ cursor: pointer;
+    h3{
+font-family: Lato;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 1px;
+color: #1E212C;
+    }
+    ul{
+        li{
+            color:#424551;
+            font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+            padding-top: 8px;
+        }
+    }
+}
+.newshoes{
+    width: 180px;
+height: 282px;
+    padding-left: 70px;
+     cursor: pointer;
+    h3{
+        font-family: Lato;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 1px;
+color: #1E212C;
+    }
+    ul{
+        li{
+            font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #424551;
+            padding-top: 8px;
+        }
+    }
+}
+.acessor{
+     cursor: pointer;
+    padding-left: 150px;
+    h3{
+font-family: Lato;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 1px;
+color: #1E212C;
+    }
+    ul{font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #424551;
+        li{
+padding-top: 8px;
+        }
+    }
+}
+.megabanner{
+    padding-left: 180px;
+    h3{
+         cursor: pointer;
+        padding-top: 16px;
+        color: #424551;
+        font-family: Lato;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+    }
+    button{
+         cursor: pointer;
+        margin-top: 16px;
+        width: 130px;
+height: 36px;
+gap: 10px;
+border-width: 1px;
+border-radius: 4px;
+background: transparent;
+padding-right: 24px;
+padding-left: 24px;
+color: #17696A;
+border: 1px solid #17696A;
+    }
+}
+.megamenubanner{
+    background: url('../../assets/Image/megamenubanner.png')center no-repeat;
+    width: 285px;
+height: 285px;
+border-radius: 4px;
+
+}
+.hiout{
+    position: absolute;
+padding-left: 5px;
+width: 16px;
+height: 16px;
+color: #17696A;
+}

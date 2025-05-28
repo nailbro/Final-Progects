@@ -1,11 +1,14 @@
-import React from 'react'
-import Header from '../../Header/Header'
+import { FC } from 'react'
 import { Outlet } from 'react-router-dom'
+import Header from '../../Header/Header'
 import Footer from '../../Footer/Footer'
+import ScrollToTop from '../ScroollToTop'
 
-const Layout = () => {
+
+const Layout: FC = () => {
   return (
     <>
+      <ScrollToTop />
       <Header />
       <Outlet />
       <Footer />

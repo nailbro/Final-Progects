@@ -1,0 +1,55 @@
+.comments{
+    padding-top: 120px;
+    width: 810px;
+height: 734px;
+padding-left: 555px;
+h1{
+    width: 810px;
+    font-family: Lato;
+font-weight: 900;
+font-size: 46px;
+text-align: center;
+}
+}
+.comment{
+    padding-top: 60px;
+    display: flex;
+}
+.user{
+    width: 150px;
+height: 56px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+h4{
+    width: 150px;
+    font-family: Lato;
+font-weight: 700;
+font-size: 18px;
+color: #1E212C;
+}
+span{
+    font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+vertical-align: middle;
+color: #787A80;
+}
+}
+.commen{
+    padding-left: 30px;
+    width: 630px;
+gap: 16px;
+p{
+       width: 630px;
+       font-family: Lato;
+font-weight: 400;
+font-size: 16px;
+
+}
+}
+.repry{
+    padding-top: 16px;
+    display: flex;
+    gap: 8px;
+}

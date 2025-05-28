@@ -1,13 +1,13 @@
 .blog{
     margin-top: 180px;
-    margin-left: 345px;
+padding-left: 345px;
+    width: 1920px;
 }
 .blogs{
     width: 1230px;
 display: flex;
 justify-content: space-between;
 border: 4px;
-
 h1{
     font-family: Lato;
 font-weight: 900;
@@ -26,6 +26,7 @@ padding-left: 32px;
 gap: 10px;
 border: 1px solid #17696A;
 color: #17696A;
+cursor: pointer;
     }
 }
 .blogi{
@@ -48,54 +49,47 @@ border-top-right-radius: 4px;
     border-top-right-radius: 4px;    
 }
 .blogcs{
-    width:600px;
     height: 176px;
     background: white;
 }
 .blocs{
-    margin: 24px;
+    padding: 24px;
     h3{
         font-family: Lato;
 font-weight: 700;
 font-size: 20px;
-line-height: 150%;
-letter-spacing: 0%;
+color: #1E212C;
     }
     p{
-        margin-top: 16px;
+        padding-top: 16px;
         font-family: Lato;
 font-weight: 400;
 font-size: 16px;
-line-height: 160%;
-letter-spacing: 0%;
 color: #424551;
     }
 }
 .meta{
     ul{
+        padding-top: 12px;
         display: flex;
-        column-gap: 12px;
+        gap: 12px;
     }
     li{
         font-family: Lato;
 font-weight: 400;
 font-size: 14px;
-line-height: 150%;
-letter-spacing: 0%;
-vertical-align: middle;
 color: #787A80;
+;
+vertical-align: middle;
     }
 }
 .diviler{
-    margin-top: 4px;
-height: 11px;
-    rotate: -90 deg;    
-border: 1px solid #787A80
+    margin-top: 3px;
+    height: 12.00000000000001px;
+border-width: 1px;
+border: 1px solid #787A80;
 }
 .nbn{
     display: flex;
-    column-gap: 5px;
-}
-.nbnf{
-    margin-top: 3px;
+    gap: 8px;
 }
